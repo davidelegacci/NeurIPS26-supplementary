@@ -1,7 +1,16 @@
 # NeurIPS 2026 supplementary: exact harmonic-game checks
 
-Self-contained code and original data for the paragraph **“Exact checks and a
-concrete illustration”** in `NeurIPS-2026/Appendix/App-Related.tex`.
+Supplementary code and data for:
+
+**Davide Legacci, Panayotis Mertikopoulos, and Bary Pradelski.**
+[*Adapting to Conflict: Equilibrium Structure and Adaptive Learning in Harmonic Games*](https://neurips.cc/virtual/2026/loc/paris/poster/148344).
+**NeurIPS 2026.**
+
+This repository reproduces the exact harmonic-game calculations reported in
+the paper's discussion of reachable-space regularity: generation of harmonic
+games, dimensions of their effective update spaces, and Jacobian ranks at
+their harmonic centers. It also includes the two curved-Nash examples shown
+in Figure 1 of the paper.
 
 This repository reproduces the following results:
 
@@ -13,7 +22,7 @@ This repository reproduces the following results:
 | Disconnected Nash set (Figure 1, middle) | 1 | 3 | 2 |
 
 Every rank is computed over the rationals. The repository contains the **actual
-games used in the paragraph**, not a new sample. No learning simulations,
+games reported in the paper**, not a new sample. No learning simulations,
 equilibrium solvers, notebooks, or external research repositories are needed.
 
 ## Run
@@ -28,7 +37,7 @@ python reproduce.py --output reproduced
 python -m unittest discover -s tests -v
 ```
 
-The first command regenerates the 40 sampled payoff tables from seed `20261107`,
+The `reproduce.py` command regenerates the 40 sampled payoff tables from seed `20261107`,
 compares every draw and payoff with the archive, and verifies all 42 games. It
 also compares the newly calculated fields and matrices against the independently
 saved original audit and the checked-in exact report. Expected output:
@@ -134,7 +143,7 @@ print(payoffs)  # exact SymPy integers/rationals, in the documented payoff order
 ```
 
 `solve_family` also accepts other finite action counts through the lengths of
-the measure lists. The paragraph's field/rank audit is deliberately limited
+the measure lists. The field and rank checks provided here are limited
 to three-player, two-action games.
 
 ## Exact calculations
@@ -159,7 +168,7 @@ skew-symmetric in the weighted examples.
 
 ### Dimension of the effective update space
 
-The space in the paragraph is
+The effective update space is
 
 $$
 \mathcal U=\mathrm{span}\,\{v(x):x\in[0,1]^3\}.
@@ -205,14 +214,28 @@ $$
 which is singular. Thus the required nonsingularity at every reachable zero
 fails. “Reachable” here refers to the affine score space, not to a claim that
 a particular learning trajectory visits the center. These exact instances
-support the paragraph's reported checks; the preceding genericity argument
-in the paper is an analytical argument, not a statistical inference from 40 samples.
+reproduce the paper's exact computational checks. The paper establishes
+generic failure separately through an analytical argument.
+
+## Citation
+
+If you use this code or these game instances, please cite the paper:
+
+```bibtex
+@inproceedings{legacci2026adapting,
+  title     = {Adapting to Conflict: Equilibrium Structure and Adaptive Learning in Harmonic Games},
+  author    = {Legacci, Davide and Mertikopoulos, Panayotis and Pradelski, Bary},
+  booktitle = {The Fortieth Annual Conference on Neural Information Processing Systems},
+  year      = {2026},
+  url       = {https://neurips.cc/virtual/2026/loc/paris/poster/148344}
+}
+```
 
 ## Provenance
 
 The source is audit run `20261107-002715-434849`, originally produced with
 Python 3.12.3, NumPy 2.4.3, and SymPy 1.12.1. That broader audit also included
-seven examples/controls outside this paragraph; those are not part of this
+seven additional examples and controls; those are not part of this
 42-game supplement. The numerical input tables and original reference
 calculations have been retained independently of the new verification code.
 
