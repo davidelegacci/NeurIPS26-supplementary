@@ -1,0 +1,63 @@
+{
+  "original_run": "20261107-002715-434849",
+  "original_environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.3",
+    "sympy": "1.12.1"
+  },
+  "source_sha256": {
+    "results.json": "bf7affc87e73e200c257252ee338713a4ef1a2262f934055d0e1120d45aaaf1d",
+    "generate_harmonic_game_clean.ipynb": "2b5a7eb270f96212c571c1cff6e5d4f1b59c800ed7200fba4ab1e89b609c4347"
+  },
+  "original_source_sha256": {
+    "audit.py": "07d8b32dce5a5db0956751bd473cc174e11aaba69e6a74360aae41d2ab7498bf",
+    "generate_harmonic_game_clean.ipynb": "2b5a7eb270f96212c571c1cff6e5d4f1b59c800ed7200fba4ab1e89b609c4347",
+    "symplectic-ftrl-benchmark.py": "1402d466ea1aec6f01770c84372903b740f8c363be8881e4d05edb5e80673bcc",
+    "settings.json": "3b59b7407b76d164ffb1c9084e55f5fb871a658fe1e97369378a852968f77ebb"
+  },
+  "selected_cases": [
+    "figure1-connected-curved",
+    "figure1-disconnected",
+    "uniform-222-01",
+    "uniform-222-02",
+    "uniform-222-03",
+    "uniform-222-04",
+    "uniform-222-05",
+    "uniform-222-06",
+    "uniform-222-07",
+    "uniform-222-08",
+    "uniform-222-09",
+    "uniform-222-10",
+    "uniform-222-11",
+    "uniform-222-12",
+    "uniform-222-13",
+    "uniform-222-14",
+    "uniform-222-15",
+    "uniform-222-16",
+    "uniform-222-17",
+    "uniform-222-18",
+    "uniform-222-19",
+    "uniform-222-20",
+    "weighted-222-01",
+    "weighted-222-02",
+    "weighted-222-03",
+    "weighted-222-04",
+    "weighted-222-05",
+    "weighted-222-06",
+    "weighted-222-07",
+    "weighted-222-08",
+    "weighted-222-09",
+    "weighted-222-10",
+    "weighted-222-11",
+    "weighted-222-12",
+    "weighted-222-13",
+    "weighted-222-14",
+    "weighted-222-15",
+    "weighted-222-16",
+    "weighted-222-17",
+    "weighted-222-18",
+    "weighted-222-19",
+    "weighted-222-20"
+  ],
+  "extraction": "42 paragraph cases; all payoff entries converted to exact rational strings; reference matrices copied unchanged"
+}

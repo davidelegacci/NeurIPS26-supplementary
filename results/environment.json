@@ -1,0 +1,14 @@
+{
+  "python": "3.12.3",
+  "numpy": "2.4.3",
+  "sympy": "1.12.1",
+  "mpmath": "1.3.0",
+  "regenerated_sample": true,
+  "sha256": {
+    "harmonic_games.py": "45f2021a086e588cfdace5c8897da45bb1444928cdca95c0391305892979a1a3",
+    "reproduce.py": "294d0ebfd9aba83c6cf1beade1e9e8401173443ac598873689507fafa9dc67c5",
+    "requirements.txt": "46afd128f4f5bb624ab8fe4d600abe317b6be8b870e8fa96a4455120de5e90c7",
+    "data/games.json": "5b3601fd7210b95bcafac568f4787d880d268d590ea76ecae8d01f0f9d204de3",
+    "data/reference-checks.json": "4a61d0b204d880ffe1367c39b0e31ed1361ab753bb7348e36274bc03b468eeb5"
+  }
+}

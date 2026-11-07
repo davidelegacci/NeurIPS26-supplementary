@@ -1,0 +1,2860 @@
+{
+  "cases": [
+    {
+      "name": "figure1-connected-curved",
+      "field": [
+        "8*x2*x3 - 12*x2 - x3 + 5",
+        "-11*x1*x3 + 13*x1 + 14*x3 - 14",
+        "4*x1*x2 - 6*x1 - 8*x2 + 8"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "5",
+          "4",
+          "-7"
+        ],
+        [
+          "-14",
+          "0",
+          "-14"
+        ],
+        [
+          "8",
+          "8",
+          "0"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-28/5",
+          "5"
+        ],
+        [
+          "21/5",
+          "0",
+          "20/3"
+        ],
+        [
+          "-3",
+          "-16/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "55/48",
+          "1/5",
+          "259/240"
+        ],
+        [
+          "3/16",
+          "-8/15",
+          "301/240"
+        ],
+        [
+          "-3509/1680",
+          "-113/105",
+          "-49/80"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "figure1-disconnected",
+      "field": [
+        "-6*x2*x3 - 8*x2 - 7*x3 + 9",
+        "38*x1*x3 - 8*x1 - 21*x3 + 5",
+        "-32*x1*x2 + 26*x1 + 18*x2 - 14"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "9",
+          "2",
+          "1"
+        ],
+        [
+          "5",
+          "-16",
+          "5"
+        ],
+        [
+          "-14",
+          "-14",
+          "4"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-11",
+          "-10"
+        ],
+        [
+          "11",
+          "0",
+          "-2"
+        ],
+        [
+          "10",
+          "2",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-79/420",
+          "-121/420",
+          "29/420"
+        ],
+        [
+          "265/84",
+          "1273/84",
+          "-395/84"
+        ],
+        [
+          "499/30",
+          "3077/60",
+          "-449/30"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-01",
+      "field": [
+        "-42*x2*x3 + 31*x2 - 5",
+        "48*x1*x3 - 34*x1 - 38*x3 + 24",
+        "-6*x1*x2 + 24*x1 + 17*x2 - 19"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "-5",
+          "-5",
+          "26"
+        ],
+        [
+          "24",
+          "-14",
+          "24"
+        ],
+        [
+          "-19",
+          "-19",
+          "-2"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "10",
+          "-21"
+        ],
+        [
+          "-10",
+          "0",
+          "-14"
+        ],
+        [
+          "21",
+          "14",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-8599/3192",
+          "213/152",
+          "-9763/1596"
+        ],
+        [
+          "-489/532",
+          "169/76",
+          "-1473/266"
+        ],
+        [
+          "1831/336",
+          "51/16",
+          "79/168"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-02",
+      "field": [
+        "12*x2*x3 - 8*x2 - 12*x3 + 7",
+        "-16*x1*x3 + 10*x1 + 12*x3 - 7",
+        "4*x1*x2 + 4*x1 - 6*x2"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "7",
+          "-1",
+          "-1"
+        ],
+        [
+          "-7",
+          "-7",
+          "5"
+        ],
+        [
+          "0",
+          "-6",
+          "-6"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-2",
+          "-6"
+        ],
+        [
+          "2",
+          "0",
+          "4"
+        ],
+        [
+          "6",
+          "-4",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "1/12",
+          "139/84",
+          "13/12"
+        ],
+        [
+          "-14/9",
+          "-29/36",
+          "13/36"
+        ],
+        [
+          "-49/36",
+          "-1/9",
+          "13/18"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-03",
+      "field": [
+        "6*x2*x3 + 7*x2 - 14*x3 + 2",
+        "-14*x1*x3 - 3*x1 + 14*x3 - 2",
+        "8*x1*x2 + 7*x1 - 11*x2"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "2",
+          "9",
+          "1"
+        ],
+        [
+          "-2",
+          "-2",
+          "12"
+        ],
+        [
+          "0",
+          "-11",
+          "-11"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "10",
+          "-11"
+        ],
+        [
+          "-10",
+          "0",
+          "7"
+        ],
+        [
+          "11",
+          "-7",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-5/3",
+          "151/6",
+          "487/12"
+        ],
+        [
+          "-7/66",
+          "-743/264",
+          "-745/264"
+        ],
+        [
+          "-47/66",
+          "65/264",
+          "1183/264"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-04",
+      "field": [
+        "-16*x2*x3 + 6*x2 + 14*x3 - 6",
+        "12*x1*x3 - 4*x1 - 14*x3 + 6",
+        "4*x1*x2 - 8*x1 + 6*x2"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "-6",
+          "0",
+          "-2"
+        ],
+        [
+          "6",
+          "6",
+          "-8"
+        ],
+        [
+          "0",
+          "6",
+          "6"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-2",
+          "6"
+        ],
+        [
+          "2",
+          "0",
+          "-8"
+        ],
+        [
+          "-6",
+          "8",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-1/16",
+          "-11/8",
+          "-91/48"
+        ],
+        [
+          "29/16",
+          "7/8",
+          "-65/48"
+        ],
+        [
+          "27/16",
+          "9/8",
+          "-13/16"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-05",
+      "field": [
+        "-10*x2*x3 - x2 - 2*x3 + 4",
+        "24*x1*x3 - 6*x1 - 18*x3 + 6",
+        "-14*x1*x2 + 14*x1 + 13*x2 - 10"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "4",
+          "2",
+          "3"
+        ],
+        [
+          "6",
+          "-12",
+          "6"
+        ],
+        [
+          "-10",
+          "-10",
+          "3"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-6",
+          "-7"
+        ],
+        [
+          "6",
+          "0",
+          "-6"
+        ],
+        [
+          "7",
+          "6",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-9/25",
+          "41/50",
+          "-57/100"
+        ],
+        [
+          "-41/200",
+          "321/100",
+          "-171/100"
+        ],
+        [
+          "69/20",
+          "43/5",
+          "-57/20"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-06",
+      "field": [
+        "40*x2*x3 - 21*x2 - 25*x3 + 13",
+        "-4*x1*x3 + 3*x1 + x3 - 1",
+        "-36*x1*x2 + 23*x1 + 19*x2 - 12"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "13",
+          "-12",
+          "-8"
+        ],
+        [
+          "-1",
+          "0",
+          "-1"
+        ],
+        [
+          "-12",
+          "-12",
+          "7"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-1",
+          "-5"
+        ],
+        [
+          "1",
+          "0",
+          "-1"
+        ],
+        [
+          "5",
+          "1",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-189/80",
+          "3/4",
+          "29/20"
+        ],
+        [
+          "-1189/960",
+          "1/16",
+          "179/240"
+        ],
+        [
+          "-311/80",
+          "-3/4",
+          "23/10"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-07",
+      "field": [
+        "38*x2*x3 - 35*x2 - 24*x3 + 20",
+        "-8*x1*x3 + 20*x1 + 16*x3 - 16",
+        "-30*x1*x2 + 20*x1 + 3*x2 - 4"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "20",
+          "-4",
+          "-15"
+        ],
+        [
+          "-16",
+          "0",
+          "-16"
+        ],
+        [
+          "-4",
+          "-4",
+          "-1"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-16",
+          "-5"
+        ],
+        [
+          "16",
+          "0",
+          "12"
+        ],
+        [
+          "5",
+          "-12",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-127/76",
+          "69/76",
+          "729/304"
+        ],
+        [
+          "-1211/76",
+          "5/38",
+          "-3069/304"
+        ],
+        [
+          "-49/19",
+          "16/19",
+          "117/76"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-08",
+      "field": [
+        "-24*x2*x3 - 11*x2 - x3 + 12",
+        "23*x1 + 3*x3 - 13",
+        "24*x1*x2 + x1 - 15*x2 + 1"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "12",
+          "11",
+          "1"
+        ],
+        [
+          "-13",
+          "-10",
+          "-13"
+        ],
+        [
+          "1",
+          "1",
+          "-14"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-23",
+          "-13"
+        ],
+        [
+          "23",
+          "0",
+          "3"
+        ],
+        [
+          "13",
+          "-3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-5089/104",
+          "-1039/26",
+          "-5311/104"
+        ],
+        [
+          "481/8",
+          "195/4",
+          "533/8"
+        ],
+        [
+          "-279/104",
+          "-32/13",
+          "19/104"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-09",
+      "field": [
+        "28*x2*x3 + 7*x2 - 25*x3 + 2",
+        "-16*x1*x3 - 13*x1 + x3 + 10",
+        "-12*x1*x2 + 17*x1 + 13*x2 - 12"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "2",
+          "-23",
+          "9"
+        ],
+        [
+          "10",
+          "11",
+          "10"
+        ],
+        [
+          "-12",
+          "-12",
+          "1"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "21",
+          "-11"
+        ],
+        [
+          "-21",
+          "0",
+          "-7"
+        ],
+        [
+          "11",
+          "7",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "2741/3360",
+          "28631/6720",
+          "-1609/1680"
+        ],
+        [
+          "-835/336",
+          "143/672",
+          "-445/168"
+        ],
+        [
+          "831/280",
+          "5421/560",
+          "-36/35"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-10",
+      "field": [
+        "-4*x2*x3 + x2 - x3 + 1",
+        "-10*x1*x3 + 6*x1 + 13*x3 - 7",
+        "14*x1*x2 - 4*x1 - 15*x2 + 6"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "1",
+          "0",
+          "2"
+        ],
+        [
+          "-7",
+          "6",
+          "-7"
+        ],
+        [
+          "6",
+          "6",
+          "-9"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-1",
+          "-3"
+        ],
+        [
+          "1",
+          "0",
+          "8"
+        ],
+        [
+          "3",
+          "-8",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-1/56",
+          "-15/7",
+          "83/28"
+        ],
+        [
+          "41/96",
+          "-11/4",
+          "181/48"
+        ],
+        [
+          "-153/112",
+          "-27/14",
+          "155/56"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-11",
+      "field": [
+        "50*x2*x3 - 26*x2 - 31*x3 + 16",
+        "-44*x1*x3 + 23*x1 + 35*x3 - 18",
+        "-6*x1*x2 + 9*x1 - 10*x2 + 2"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "16",
+          "-15",
+          "-10"
+        ],
+        [
+          "-18",
+          "17",
+          "-18"
+        ],
+        [
+          "2",
+          "2",
+          "-8"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-1",
+          "-6"
+        ],
+        [
+          "1",
+          "0",
+          "13"
+        ],
+        [
+          "6",
+          "-13",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "289/15",
+          "-1129/60",
+          "179/15"
+        ],
+        [
+          "2067/100",
+          "-3931/200",
+          "1137/100"
+        ],
+        [
+          "-197/600",
+          "121/1200",
+          "233/600"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-12",
+      "field": [
+        "16*x2*x3 - 4*x2 - 20*x3 + 8",
+        "8*x1*x3 - 8*x1 - 8*x3 + 6",
+        "-24*x1*x2 + 24*x1 + 16*x2 - 14"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "8",
+          "-12",
+          "4"
+        ],
+        [
+          "6",
+          "-2",
+          "6"
+        ],
+        [
+          "-14",
+          "-14",
+          "2"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "4",
+          "-12"
+        ],
+        [
+          "-4",
+          "0",
+          "-4"
+        ],
+        [
+          "12",
+          "4",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "9/7",
+          "25/7",
+          "-5/7"
+        ],
+        [
+          "-51/14",
+          "-11/14",
+          "-9/14"
+        ],
+        [
+          "-3/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-13",
+      "field": [
+        "24*x2*x3 - 2*x2 - 6*x3 - 2",
+        "-14*x1*x3 - 3*x1 + 16*x3 - 3",
+        "-10*x1*x2 - x1 - 4*x2 + 5"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "-2",
+          "-8",
+          "-4"
+        ],
+        [
+          "-3",
+          "13",
+          "-3"
+        ],
+        [
+          "5",
+          "5",
+          "1"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "10",
+          "6"
+        ],
+        [
+          "-10",
+          "0",
+          "9"
+        ],
+        [
+          "-6",
+          "-9",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "91/60",
+          "-283/180",
+          "109/60"
+        ],
+        [
+          "39/40",
+          "-7/120",
+          "41/40"
+        ],
+        [
+          "-65/24",
+          "-655/72",
+          "-35/24"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-14",
+      "field": [
+        "24*x2*x3 - 3*x2 - 15*x3 + 3",
+        "-9*x1 - 11*x3 + 10",
+        "-24*x1*x2 + 15*x1 + 23*x2 - 13"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "3",
+          "-12",
+          "0"
+        ],
+        [
+          "10",
+          "-1",
+          "10"
+        ],
+        [
+          "-13",
+          "-13",
+          "10"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "9",
+          "-3"
+        ],
+        [
+          "-9",
+          "0",
+          "-11"
+        ],
+        [
+          "3",
+          "11",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "63/52",
+          "41/13",
+          "-20/13"
+        ],
+        [
+          "-31/13",
+          "17/104",
+          "-85/52"
+        ],
+        [
+          "29/20",
+          "251/80",
+          "-11/8"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-15",
+      "field": [
+        "-38*x2*x3 + 29*x2 + 12*x3 - 11",
+        "30*x1*x3 - 25*x1 - 28*x3 + 19",
+        "8*x1*x2 + 3*x1 + 9*x2 - 8"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "-11",
+          "1",
+          "18"
+        ],
+        [
+          "19",
+          "-9",
+          "19"
+        ],
+        [
+          "-8",
+          "-8",
+          "1"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "10",
+          "-7"
+        ],
+        [
+          "-10",
+          "0",
+          "-13"
+        ],
+        [
+          "7",
+          "13",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-17459/11552",
+          "19201/11552",
+          "-121667/23104"
+        ],
+        [
+          "-2107/608",
+          "1113/608",
+          "-7819/1216"
+        ],
+        [
+          "1939/722",
+          "319/722",
+          "-461/1444"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-16",
+      "field": [
+        "14*x2*x3 - 20*x2 - 15*x3 + 14",
+        "-34*x1*x3 + 30*x1 + 17*x3 - 15",
+        "20*x1*x2 - 2*x1 - 10*x2 + 1"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "14",
+          "-1",
+          "-6"
+        ],
+        [
+          "-15",
+          "2",
+          "-15"
+        ],
+        [
+          "1",
+          "1",
+          "-9"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-13",
+          "-8"
+        ],
+        [
+          "13",
+          "0",
+          "0"
+        ],
+        [
+          "8",
+          "0",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-89/280",
+          "27/280",
+          "-309/280"
+        ],
+        [
+          "-543/28",
+          "71/14",
+          "-1503/28"
+        ],
+        [
+          "-4453/840",
+          "223/280",
+          "-1331/280"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-17",
+      "field": [
+        "-28*x2*x3 + 5*x2 + 3*x3 + 3",
+        "40*x1*x3 - 11*x1 - 35*x3 + 13",
+        "-12*x1*x2 + 17*x1 + 21*x2 - 16"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "3",
+          "6",
+          "8"
+        ],
+        [
+          "13",
+          "-22",
+          "13"
+        ],
+        [
+          "-16",
+          "-16",
+          "5"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-9",
+          "-11"
+        ],
+        [
+          "9",
+          "0",
+          "-15"
+        ],
+        [
+          "11",
+          "15",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-5377/5824",
+          "739/224",
+          "-13875/5824"
+        ],
+        [
+          "-1419/896",
+          "1485/448",
+          "-2497/896"
+        ],
+        [
+          "2459/728",
+          "223/28",
+          "-1741/728"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-18",
+      "field": [
+        "20*x2*x3 - 5*x2 - 5*x3",
+        "-32*x1*x3 + 11*x1 + 31*x3 - 13",
+        "12*x1*x2 - 11*x1 - 21*x2 + 13"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "0",
+          "-5",
+          "-5"
+        ],
+        [
+          "-13",
+          "18",
+          "-13"
+        ],
+        [
+          "13",
+          "13",
+          "-8"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "5",
+          "5"
+        ],
+        [
+          "-5",
+          "0",
+          "15"
+        ],
+        [
+          "-5",
+          "-15",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "75/104",
+          "-55/13",
+          "4145/1352"
+        ],
+        [
+          "15/8",
+          "-13/4",
+          "283/104"
+        ],
+        [
+          "-15/8",
+          "-9/2",
+          "263/104"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-19",
+      "field": [
+        "48*x2*x3 - 35*x2 - 51*x3 + 31",
+        "-20*x1*x3 + 21*x1 + 7*x3 - 9",
+        "-28*x1*x2 + 41*x1 + 17*x2 - 22"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "31",
+          "-20",
+          "-4"
+        ],
+        [
+          "-9",
+          "-2",
+          "-9"
+        ],
+        [
+          "-22",
+          "-22",
+          "-5"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-11",
+          "-27"
+        ],
+        [
+          "11",
+          "0",
+          "-3"
+        ],
+        [
+          "27",
+          "3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-173/1584",
+          "1624/297",
+          "1393/792"
+        ],
+        [
+          "-4857/704",
+          "35/33",
+          "-3/352"
+        ],
+        [
+          "-2783/288",
+          "-77/54",
+          "-137/144"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "uniform-222-20",
+      "field": [
+        "-16*x2*x3 + 9*x2 + 7*x3 - 4",
+        "40*x1*x3 - 21*x1 - 27*x3 + 14",
+        "-24*x1*x2 + 13*x1 + 19*x2 - 10"
+      ],
+      "center": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "update_space_basis": [
+        [
+          "-4",
+          "3",
+          "5"
+        ],
+        [
+          "14",
+          "-13",
+          "14"
+        ],
+        [
+          "-10",
+          "-10",
+          "9"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "1",
+          "-1"
+        ],
+        [
+          "-1",
+          "0",
+          "-7"
+        ],
+        [
+          "1",
+          "7",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-307/560",
+          "523/320",
+          "-4093/2240"
+        ],
+        [
+          "-29/40",
+          "167/160",
+          "-191/160"
+        ],
+        [
+          "67/56",
+          "17/32",
+          "-111/224"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-01",
+      "field": [
+        "-74*x2*x3 + 72*x2 + 38*x3 - 40",
+        "38*x1*x3 - 40*x1 - 37*x3 + 36",
+        "14*x1*x2 - 7"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-40",
+          "-2",
+          "32"
+        ],
+        [
+          "36",
+          "-1",
+          "36"
+        ],
+        [
+          "-7",
+          "-7",
+          "-7"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "64/5",
+          "-35/2"
+        ],
+        [
+          "-48/5",
+          "0",
+          "-35/3"
+        ],
+        [
+          "21/2",
+          "28/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-5623/19980",
+          "-157/4995",
+          "-37591/19980"
+        ],
+        [
+          "288/185",
+          "47/111",
+          "-3264/185"
+        ],
+        [
+          "61099/19980",
+          "10483/19980",
+          "-2837/19980"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-02",
+      "field": [
+        "62*x2*x3 - 28*x2 - 34*x3 + 11",
+        "-79*x1*x3 + 47*x1 + 71*x3 - 46",
+        "26*x1*x2 - 27*x1 - 32*x2 + 29"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "11",
+          "-23",
+          "-17"
+        ],
+        [
+          "-46",
+          "25",
+          "-46"
+        ],
+        [
+          "29",
+          "29",
+          "-3"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "108/5",
+          "25/2"
+        ],
+        [
+          "-81/5",
+          "0",
+          "55/3"
+        ],
+        [
+          "-15/2",
+          "-44/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-2899/8990",
+          "1831403/2481240",
+          "-2735/5394"
+        ],
+        [
+          "56917/13485",
+          "-4269/1798",
+          "82597/13485"
+        ],
+        [
+          "757/465",
+          "-485789/85560",
+          "418/155"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-03",
+      "field": [
+        "60*x2*x3 - 80*x2 - 5*x3 + 28",
+        "-125*x1*x3 + 124*x1 + 135*x3 - 124",
+        "64*x1*x2 - 72*x1 - 84*x2 + 79"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "28",
+          "23",
+          "-52"
+        ],
+        [
+          "-124",
+          "11",
+          "-124"
+        ],
+        [
+          "79",
+          "79",
+          "-5"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-32",
+          "40"
+        ],
+        [
+          "24",
+          "0",
+          "155/3"
+        ],
+        [
+          "-24",
+          "-124/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "8897213/734700",
+          "691121/244900",
+          "448719/48980"
+        ],
+        [
+          "-53836/17775",
+          "-107761/17775",
+          "21796/3555"
+        ],
+        [
+          "-105181/5580",
+          "-13414/1395",
+          "-6749/1116"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-04",
+      "field": [
+        "-52*x2*x3 + 72*x2 + 59*x3 - 70",
+        "-71*x1*x3 + 34*x1 + 69*x3 - 40",
+        "88*x1*x2 - 78*x1 - 76*x2 + 65"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-70",
+          "-11",
+          "2"
+        ],
+        [
+          "-40",
+          "29",
+          "-40"
+        ],
+        [
+          "65",
+          "65",
+          "-11"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "152/5",
+          "20"
+        ],
+        [
+          "-114/5",
+          "0",
+          "65/3"
+        ],
+        [
+          "-12",
+          "-52/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-2417/4056",
+          "-12438431/2028000",
+          "2074391/507000"
+        ],
+        [
+          "600/169",
+          "71999/12675",
+          "-38456/12675"
+        ],
+        [
+          "-3535/312",
+          "100619/31200",
+          "-39659/7800"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-05",
+      "field": [
+        "-40*x2*x3 + 52*x2 - 15",
+        "65*x1*x3 - 67*x1 - 60*x3 + 58",
+        "-28*x1*x2 + 39*x1 + 32*x2 - 36"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-15",
+          "-15",
+          "37"
+        ],
+        [
+          "58",
+          "-2",
+          "58"
+        ],
+        [
+          "-36",
+          "-36",
+          "-4"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "20",
+          "-30"
+        ],
+        [
+          "-15",
+          "0",
+          "-50/3"
+        ],
+        [
+          "18",
+          "40/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-683971/104400",
+          "-243721/104400",
+          "-524659/104400"
+        ],
+        [
+          "5707/1800",
+          "6457/1800",
+          "-6197/1800"
+        ],
+        [
+          "21293/2320",
+          "11543/2320",
+          "6877/2320"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-06",
+      "field": [
+        "136*x2*x3 - 92*x2 - 52*x3 + 29",
+        "-112*x1*x3 + 77*x1 + 98*x3 - 70",
+        "8*x1*x2 - 36*x1 - 24*x2 + 38"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "29",
+          "-23",
+          "-63"
+        ],
+        [
+          "-70",
+          "28",
+          "-70"
+        ],
+        [
+          "38",
+          "38",
+          "14"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "84/5",
+          "50"
+        ],
+        [
+          "-63/5",
+          "0",
+          "70/3"
+        ],
+        [
+          "-30",
+          "-56/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "5419/6460",
+          "256153/96900",
+          "77077/19380"
+        ],
+        [
+          "647/646",
+          "3683/4845",
+          "27349/1938"
+        ],
+        [
+          "-1331/1020",
+          "-26959/5100",
+          "-1631/1020"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-07",
+      "field": [
+        "-56*x2*x3 + 4*x2 + 72*x3 - 27",
+        "7*x1*x3 + 25*x1 + 12*x3 - 30",
+        "28*x1*x2 - 39*x1 - 32*x2 + 36"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-27",
+          "45",
+          "-23"
+        ],
+        [
+          "-30",
+          "-18",
+          "-30"
+        ],
+        [
+          "36",
+          "36",
+          "4"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-204/5",
+          "30"
+        ],
+        [
+          "153/5",
+          "0",
+          "50/3"
+        ],
+        [
+          "-18",
+          "-40/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-1131/400",
+          "-193/80",
+          "-6131/3600"
+        ],
+        [
+          "187/24",
+          "-1/8",
+          "433/72"
+        ],
+        [
+          "429/400",
+          "-873/80",
+          "1181/400"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-08",
+      "field": [
+        "-23*x2*x3 + 24*x2 + 11*x3 - 13",
+        "91*x1*x3 - 77*x1 - 94*x3 + 78",
+        "-59*x1*x2 + 48*x1 + 66*x2 - 52"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-13",
+          "-2",
+          "11"
+        ],
+        [
+          "78",
+          "-16",
+          "78"
+        ],
+        [
+          "-52",
+          "-52",
+          "14"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "28/5",
+          "-25/4"
+        ],
+        [
+          "-21/5",
+          "0",
+          "-100/3"
+        ],
+        [
+          "15/4",
+          "80/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-209549/53820",
+          "69869/349830",
+          "-181373/53820"
+        ],
+        [
+          "-1973/1380",
+          "3609/1495",
+          "-5393/1380"
+        ],
+        [
+          "30269/4140",
+          "20855/5382",
+          "1225/828"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-09",
+      "field": [
+        "15*x2*x3 + 8*x2 - 15",
+        "-10*x1*x3 - 7*x1 + 10",
+        "-x1*x2 - 6*x1 + 6*x2"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-15",
+          "-7",
+          "8"
+        ],
+        [
+          "10",
+          "10",
+          "10"
+        ],
+        [
+          "0",
+          "6",
+          "6"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "20",
+          "45/4"
+        ],
+        [
+          "-15",
+          "0",
+          "-20/3"
+        ],
+        [
+          "-27/4",
+          "16/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-5/12",
+          "-517/300",
+          "-223/75"
+        ],
+        [
+          "29/36",
+          "293/900",
+          "-191/450"
+        ],
+        [
+          "83/18",
+          "1391/450",
+          "41/450"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-10",
+      "field": [
+        "-41*x2*x3 - 16*x2 + 82*x3 - 29",
+        "-88*x1*x3 + 107*x1 + 117*x3 - 118",
+        "95*x1*x2 - 102*x1 - 110*x2 + 103"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-29",
+          "53",
+          "-45"
+        ],
+        [
+          "-118",
+          "-1",
+          "-118"
+        ],
+        [
+          "103",
+          "103",
+          "-7"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-244/5",
+          "205/4"
+        ],
+        [
+          "183/5",
+          "0",
+          "175/3"
+        ],
+        [
+          "-123/4",
+          "-140/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-125560531/4983140",
+          "-50035738/3737355",
+          "-174922069/14949420"
+        ],
+        [
+          "811191/21115",
+          "1274363/126690",
+          "326093/12669"
+        ],
+        [
+          "543505/29028",
+          "218111/145140",
+          "2197153/145140"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-11",
+      "field": [
+        "9*x2*x3 + 4*x2 - 13*x3 + 2",
+        "57*x1*x3 - 54*x1 - 63*x3 + 56",
+        "-51*x1*x2 + 42*x1 + 54*x2 - 43"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "2",
+          "-11",
+          "6"
+        ],
+        [
+          "56",
+          "-7",
+          "56"
+        ],
+        [
+          "-43",
+          "-43",
+          "11"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "56/5",
+          "-25/4"
+        ],
+        [
+          "-42/5",
+          "0",
+          "-25"
+        ],
+        [
+          "15/4",
+          "20",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "1149047/108360",
+          "299597/108360",
+          "132637/21672"
+        ],
+        [
+          "-34922/1935",
+          "-3536/1935",
+          "-25862/1935"
+        ],
+        [
+          "-4967/504",
+          "1121/2520",
+          "-22117/2520"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-12",
+      "field": [
+        "12*x2*x3 - 48*x2 - 4*x3 + 32",
+        "-14*x1*x3 + 40*x1 + 11*x3 - 28",
+        "4*x1*x2 - 6*x1 - 4*x2 + 5"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "32",
+          "28",
+          "-16"
+        ],
+        [
+          "-28",
+          "-17",
+          "-28"
+        ],
+        [
+          "5",
+          "5",
+          "1"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-192/5",
+          "5"
+        ],
+        [
+          "144/5",
+          "0",
+          "5/3"
+        ],
+        [
+          "-3",
+          "-4/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "22703/2100",
+          "3523/525",
+          "21587/2100"
+        ],
+        [
+          "-2572/225",
+          "-1783/225",
+          "-1388/225"
+        ],
+        [
+          "-14153/1260",
+          "-10517/1260",
+          "-3637/1260"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-13",
+      "field": [
+        "-108*x2*x3 + 64*x2 + 81*x3 - 48",
+        "111*x1*x3 - 72*x1 - 99*x3 + 68",
+        "-24*x1*x2 + 18*x1 + 36*x2 - 27"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-48",
+          "33",
+          "16"
+        ],
+        [
+          "68",
+          "-31",
+          "68"
+        ],
+        [
+          "-27",
+          "-27",
+          "9"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-112/5",
+          "0"
+        ],
+        [
+          "84/5",
+          "0",
+          "-25"
+        ],
+        [
+          "0",
+          "20",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-127469/82620",
+          "236957/165240",
+          "-98633/82620"
+        ],
+        [
+          "-11084/1215",
+          "5053/1215",
+          "-11084/1215"
+        ],
+        [
+          "-11209/3060",
+          "4727/1224",
+          "-1601/612"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-14",
+      "field": [
+        "-99*x2*x3 + 80*x2 + 33*x3 - 27",
+        "158*x1*x3 - 127*x1 - 152*x3 + 122",
+        "-67*x1*x2 + 75*x1 + 82*x2 - 78"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-27",
+          "6",
+          "53"
+        ],
+        [
+          "122",
+          "-30",
+          "122"
+        ],
+        [
+          "-78",
+          "-78",
+          "4"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "4/5",
+          "-165/4"
+        ],
+        [
+          "-3/5",
+          "0",
+          "-140/3"
+        ],
+        [
+          "99/4",
+          "112/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-779739/174460",
+          "-18199/8723",
+          "-1520729/523380"
+        ],
+        [
+          "-160319/38610",
+          "6817/1430",
+          "-50603/4290"
+        ],
+        [
+          "996637/120780",
+          "53853/6710",
+          "-799/2684"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-15",
+      "field": [
+        "-66*x2*x3 + 32*x2 - 13*x3 + 26",
+        "177*x1*x3 - 126*x1 - 168*x3 + 124",
+        "-102*x1*x2 + 114*x1 + 108*x2 - 106"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "26",
+          "13",
+          "58"
+        ],
+        [
+          "124",
+          "-44",
+          "124"
+        ],
+        [
+          "-106",
+          "-106",
+          "2"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-104/5",
+          "-125/2"
+        ],
+        [
+          "78/5",
+          "0",
+          "-50"
+        ],
+        [
+          "75/2",
+          "40",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-184891/24645",
+          "-2410739/216876",
+          "572651/271095"
+        ],
+        [
+          "-2426/795",
+          "39772/2915",
+          "-45362/2915"
+        ],
+        [
+          "6503/465",
+          "473839/20460",
+          "-6283/1023"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-16",
+      "field": [
+        "72*x2*x3 - 68*x2 - 49*x3 + 47",
+        "-54*x1*x3 + 51*x1 + 51*x3 - 46",
+        "-3*x1 - 12*x2 + 11"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "47",
+          "-2",
+          "-21"
+        ],
+        [
+          "-46",
+          "5",
+          "-46"
+        ],
+        [
+          "11",
+          "11",
+          "-1"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "-52/5",
+          "5"
+        ],
+        [
+          "39/5",
+          "0",
+          "15"
+        ],
+        [
+          "-3",
+          "-12",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "32027/30360",
+          "-2591/12144",
+          "21313/10120"
+        ],
+        [
+          "866/165",
+          "-119/165",
+          "94/11"
+        ],
+        [
+          "-2603/920",
+          "-669/1840",
+          "-307/920"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-17",
+      "field": [
+        "-123*x2*x3 + 120*x2 + 36*x3 - 45",
+        "91*x1*x3 - 89*x1 - 84*x3 + 78",
+        "x1*x2 + 33*x1 + 18*x2 - 36"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-45",
+          "-9",
+          "75"
+        ],
+        [
+          "78",
+          "-6",
+          "78"
+        ],
+        [
+          "-36",
+          "-36",
+          "-18"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "108/5",
+          "-225/4"
+        ],
+        [
+          "-81/5",
+          "0",
+          "-70/3"
+        ],
+        [
+          "135/4",
+          "56/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-1841/615",
+          "-19391/15990",
+          "-628/123"
+        ],
+        [
+          "3289/2460",
+          "4727/2460",
+          "-45851/2460"
+        ],
+        [
+          "1131/164",
+          "37299/10660",
+          "879/820"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-18",
+      "field": [
+        "3*x2*x3 + 28*x2 + 34*x3 - 50",
+        "-61*x1*x3 + 26*x1 + 54*x3 - 28",
+        "47*x1*x2 - 57*x1 - 42*x2 + 46"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-50",
+          "-16",
+          "-22"
+        ],
+        [
+          "-28",
+          "26",
+          "-28"
+        ],
+        [
+          "46",
+          "46",
+          "4"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "152/5",
+          "145/4"
+        ],
+        [
+          "-114/5",
+          "0",
+          "40/3"
+        ],
+        [
+          "-87/4",
+          "-32/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "9971/322",
+          "271024/2415",
+          "-172561/4830"
+        ],
+        [
+          "-19834/1035",
+          "-97069/1035",
+          "34976/1035"
+        ],
+        [
+          "-38627/630",
+          "-129599/630",
+          "39577/630"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-19",
+      "field": [
+        "-18*x2*x3 + 16*x2 + 16*x3 - 14",
+        "46*x1*x3 - 38*x1 - 44*x3 + 36",
+        "-26*x1*x2 + 18*x1 + 28*x2 - 20"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-14",
+          "2",
+          "2"
+        ],
+        [
+          "36",
+          "-8",
+          "36"
+        ],
+        [
+          "-20",
+          "-20",
+          "8"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "8/5",
+          "5/2"
+        ],
+        [
+          "-6/5",
+          "0",
+          "-40/3"
+        ],
+        [
+          "-3/2",
+          "32/3",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-5611/12150",
+          "9983/12150",
+          "-15419/12150"
+        ],
+        [
+          "-1979/675",
+          "112/675",
+          "-1471/675"
+        ],
+        [
+          "2671/2430",
+          "937/2430",
+          "719/2430"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    },
+    {
+      "name": "weighted-222-20",
+      "field": [
+        "-5*x2*x3 + 20*x2 - 12",
+        "75*x1*x3 - 72*x1 - 70*x3 + 64",
+        "-57*x1*x2 + 45*x1 + 54*x2 - 42"
+      ],
+      "center": [
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "update_space_basis": [
+        [
+          "-12",
+          "-12",
+          "8"
+        ],
+        [
+          "64",
+          "-6",
+          "64"
+        ],
+        [
+          "-42",
+          "-42",
+          "12"
+        ]
+      ],
+      "update_space_dimension": 3,
+      "center_jacobian": [
+        [
+          "0",
+          "16",
+          "-15/4"
+        ],
+        [
+          "-12",
+          "0",
+          "-20"
+        ],
+        [
+          "9/4",
+          "16",
+          "0"
+        ]
+      ],
+      "center_jacobian_rank": 2,
+      "restricted_entropy_score_jacobian": [
+        [
+          "-5987/200",
+          "-31/100",
+          "-7897/300"
+        ],
+        [
+          "894/25",
+          "44/25",
+          "2228/75"
+        ],
+        [
+          "2871/80",
+          "123/40",
+          "1127/40"
+        ]
+      ],
+      "restricted_entropy_score_rank": 2,
+      "fails_from_every_interior_initialization": true
+    }
+  ]
+}
