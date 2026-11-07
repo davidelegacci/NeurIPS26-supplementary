@@ -143,7 +143,7 @@ Set
 
 $$
 m_i=\mu_i(0)+\mu_i(1),\qquad
-q_i=\frac{\mu_i(1)}{m_i},\qquad W=\operatorname{diag}(m_1,m_2,m_3).
+q_i=\frac{\mu_i(1)}{m_i},\qquad W=\mathrm{diag}(m_1,m_2,m_3).
 $$
 
 For each table the program verifies the pure-profile equations, constructs
@@ -162,14 +162,14 @@ skew-symmetric in the weighted examples.
 The space in the paragraph is
 
 $$
-\mathcal U=\operatorname{span}\{v(x):x\in[0,1]^3\}.
+\mathcal U=\mathrm{span}\,\{v(x):x\in[0,1]^3\}.
 $$
 
 The field is multi-affine, so it is exactly the multilinear interpolation
 of its eight vertex values. Consequently,
 
 $$
-\mathcal U=\operatorname{range} B,\qquad
+\mathcal U=\mathrm{range}\, B,\qquad
 B=[v(0,0,0)\ \cdots\ v(1,1,1)].
 $$
 
@@ -187,7 +187,7 @@ For each game it saves $J$, its row reduction, a nonzero $2\times2$ minor,
 its zero determinant, and a rational kernel vector. Together these certify
 rank **exactly** 2, not merely numerical near-singularity.
 
-For entropy, it also checks the score derivative $J\operatorname{diag}(q_i(1-q_i))$,
+For entropy, it also checks the score derivative $J\,\mathrm{diag}(q_i(1-q_i))$,
 represented in the saved basis of $\mathcal U$. Its rank is 2 in all 42 games.
 
 ### Why these checks imply failure of Assumption 5
